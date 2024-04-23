@@ -108,6 +108,8 @@ public class BankAccount{
 			Statement st = conn.createStatement();
 			int rows = st.executeUpdate(query);
 
+			System.out.println("Number of rows Affected: " + rows);
+
 		}
 	
 		//--------To Delete Account---------

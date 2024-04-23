@@ -1,5 +1,3 @@
-package com.aa;
-
 import java.sql.*;
 import java.util.*;
 
